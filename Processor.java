@@ -1,7 +1,7 @@
-package Lec10_Abstraction.PrintableInterface;
+package Lec10_Abstraction.AbstractAccount;
 public class Processor {
     public static void main(String[] args) {
-        Printable p = new Report("Hello world :))");
-        p.print();
+        SavingsAccount account = new SavingsAccount(2000);
+        account.display();
     }
 }
